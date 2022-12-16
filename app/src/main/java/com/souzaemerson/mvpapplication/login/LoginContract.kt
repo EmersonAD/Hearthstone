@@ -1,11 +1,9 @@
-package com.souzaemerson.feature.login
+package com.souzaemerson.mvpapplication.login
 
 import com.souzaemerson.data.model.user.User
 
 interface LoginContract {
     interface View {
-        fun showLoadingDialog()
-        fun hideLoadingDialog()
         fun showErrorDialog(message: String)
         fun goToRegisterActivity()
         fun goToHomeActivity()
@@ -15,5 +13,6 @@ interface LoginContract {
         fun checkUsername(username: String): Boolean
         fun checkPassword(password: String): Boolean
         fun signIn(user: User)
+        fun signUp()
     }
 }

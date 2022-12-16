@@ -1,7 +1,7 @@
 package com.souzaemerson.data.model.user
 
 data class User(
-    val user: String,
+    val username: String,
     val password: String,
-    val cpf: String
+    val email: String
 )

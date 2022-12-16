@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">MVPApplication</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="e_mail">E-mail</string>
+    <string name="registre_se">Registre-se:</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="back_to_login">back to login</string>
+    <string name="signin">Logar-se</string>
+    <string name="signup">Registre-se</string>
+    <string name="invalid_username">Digite um usuário válido!</string>
+    <string name="invalid_password">Digite uma senha válida!</string>
+    <string name="invalid_email">Digite um e-mail válido!</string>
+    <string name="user_exists">Por favor, escolha outro nome de usuário.</string>
+    <string name="success_user_register">Usuário criado com sucesso!</string>
 </resources>
