@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/button_text_color"
+    android:background="@color/register_text_color"
     android:orientation="vertical"
     android:padding="20dp"
     tools:context=".login.LoginActivity">
@@ -20,28 +20,34 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/white"
         android:hint="@string/username"
+        android:importantForAutofill="no"
         android:inputType="text"
-        android:textColor="@color/register_text_color"
-        android:importantForAutofill="no" />
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textColorHint="#66FFFFFF" />
 
     <EditText
         android:id="@+id/et_password_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:inputType="textPassword"
+        android:backgroundTint="@color/white"
         android:hint="@string/password"
-        android:textColor="@color/register_text_color"
-        android:importantForAutofill="no" />
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textColorHint="#66FFFFFF" />
 
     <Button
         android:id="@+id/btn_signIn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:backgroundTint="@color/register_text_color"
+        android:backgroundTint="@color/button_text_color"
         android:text="@string/logar_se"
-        android:textColor="@color/button_text_color" />
+        android:textColor="#000000" />
 
 </LinearLayout>
