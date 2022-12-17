@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="register_text_color">#362928</color>
+    <color name="button_text_color">#98795F</color>
+    <color name="white">#FFFFFF</color>
+</resources>

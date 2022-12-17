@@ -1,7 +1,8 @@
-package com.souzaemerson.mvpapplication
+package com.souzaemerson.mvpapplication.home
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.souzaemerson.mvpapplication.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

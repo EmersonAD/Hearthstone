@@ -14,3 +14,8 @@ dependencyResolutionManagement {
 }
 rootProject.name = "MVPApplication"
 include ':app'
+include ':data'
+include ':network'
+include ':feature'
+include ':cache'
+include ':ui'
