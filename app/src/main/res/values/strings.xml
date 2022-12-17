@@ -13,4 +13,6 @@
     <string name="invalid_email">Digite um e-mail válido!</string>
     <string name="user_exists">Por favor, escolha outro nome de usuário.</string>
     <string name="success_user_register">Usuário criado com sucesso!</string>
+    <string name="verify_and_try_again">Verifique seus dados e tente novamente!</string>
+    <string name="login_sucess">Sucesso ao efetuar login!</string>
 </resources>

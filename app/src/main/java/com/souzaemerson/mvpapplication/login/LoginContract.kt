@@ -1,9 +1,8 @@
 package com.souzaemerson.mvpapplication.login
 
-import com.souzaemerson.data.model.user.User
-
 interface LoginContract {
     interface View {
+        fun onSuccess(message: String)
         fun showErrorDialog(message: String)
         fun goToRegisterActivity()
         fun goToHomeActivity()
@@ -12,7 +11,7 @@ interface LoginContract {
     interface Presenter {
         fun checkUsername(username: String): Boolean
         fun checkPassword(password: String): Boolean
-        fun signIn(user: User)
+        fun signIn(username: String, password: String)
         fun signUp()
     }
 }

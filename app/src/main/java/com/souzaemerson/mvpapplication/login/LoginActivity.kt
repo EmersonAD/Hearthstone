@@ -21,13 +21,27 @@ class LoginActivity : AppCompatActivity(), LoginContract.View {
         loginPresenter.view = this
         loginPresenter.context = this
 
+        onLoginClick()
         onRegisterClick()
+    }
+
+    private fun onLoginClick() {
+        binding.btnSignIn.setOnClickListener {
+            val username = binding.etUsernameLogin.text.toString()
+            val password = binding.etPasswordLogin.text.toString()
+
+            loginPresenter.signIn(username, password)
+        }
     }
 
     private fun onRegisterClick() {
         binding.btnSignUp.setOnClickListener {
             loginPresenter.signUp()
         }
+    }
+
+    override fun onSuccess(message: String) {
+        Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
     }
 
     override fun showErrorDialog(message: String) {
