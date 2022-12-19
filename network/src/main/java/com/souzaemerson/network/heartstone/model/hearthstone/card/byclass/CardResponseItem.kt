@@ -1,4 +1,4 @@
-package com.souzaemerson.data.model.hearthstone.card.byclass
+package com.souzaemerson.network.heartstone.model.hearthstone.card.byclass
 
 
 import android.os.Parcelable

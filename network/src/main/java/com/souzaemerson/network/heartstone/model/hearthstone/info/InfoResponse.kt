@@ -1,4 +1,4 @@
-package com.souzaemerson.data.model.hearthstone.info
+package com.souzaemerson.network.heartstone.model.hearthstone.info
 
 
 import android.os.Parcelable
