@@ -4,11 +4,11 @@ import com.souzaemerson.domain.model.CardClassDomain
 import com.souzaemerson.network.heartstone.model.hearthstone.card.byclass.CardResponseItem
 
 interface CardResponseDomain {
-    operator fun invoke(cardResponseList: List<CardResponseItem>): List<CardClassDomain>
+    fun transformIntoDomain(cardResponseList: List<CardResponseItem>): List<CardClassDomain>
 }
 
-object TransformCardResponseIntoDomain : CardResponseDomain {
-    override fun invoke(cardResponseList: List<CardResponseItem>): List<CardClassDomain> =
+class TransformCardResponseIntoDomain : CardResponseDomain {
+    override fun transformIntoDomain(cardResponseList: List<CardResponseItem>): List<CardClassDomain> =
         cardResponseList.map { cardResponse ->
             CardClassDomain(
                 name = cardResponse.name,
