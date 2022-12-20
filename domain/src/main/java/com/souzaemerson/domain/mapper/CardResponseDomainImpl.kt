@@ -7,7 +7,7 @@ interface CardResponseDomain {
     fun transformIntoDomain(cardResponseList: List<CardResponseItem>): List<CardClassDomain>
 }
 
-class TransformCardResponseIntoDomain : CardResponseDomain {
+class CardResponseDomainImpl : CardResponseDomain {
     override fun transformIntoDomain(cardResponseList: List<CardResponseItem>): List<CardClassDomain> =
         cardResponseList.map { cardResponse ->
             CardClassDomain(

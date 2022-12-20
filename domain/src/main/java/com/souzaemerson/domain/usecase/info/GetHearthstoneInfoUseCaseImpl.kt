@@ -1,4 +1,4 @@
-package com.souzaemerson.domain.usecase
+package com.souzaemerson.domain.usecase.info
 
 import com.souzaemerson.domain.repository.info.GetHearthstoneInfoRepository
 import com.souzaemerson.network.heartstone.model.hearthstone.info.InfoResponse
