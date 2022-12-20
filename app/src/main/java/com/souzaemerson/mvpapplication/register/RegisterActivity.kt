@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.souzaemerson.mvpapplication.databinding.ActivityRegisterBinding
-import com.souzaemerson.mvpapplication.home.MainActivity
+import com.souzaemerson.mvpapplication.home.HomeActivity
 import com.souzaemerson.ui.dialog.genericDialog
 
 class RegisterActivity : AppCompatActivity(), RegisterContract.View {
@@ -46,7 +46,7 @@ class RegisterActivity : AppCompatActivity(), RegisterContract.View {
     }
 
     override fun onCompleteRegister() {
-        val intent = Intent(this, MainActivity::class.java)
+        val intent = Intent(this, HomeActivity::class.java)
         startActivity(intent)
         finish()
     }

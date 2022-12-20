@@ -1,4 +1,4 @@
-package com.souzaemerson.domain.di
+package com.souzaemerson.network.di
 
 import com.google.gson.GsonBuilder
 import com.souzaemerson.network.heartstone.service.DoNetworkCall

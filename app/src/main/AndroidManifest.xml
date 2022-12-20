@@ -14,7 +14,7 @@
         android:theme="@style/Theme.MVPApplication"
         tools:targetApi="31">
         <activity
-            android:name=".home.MainActivity"
+            android:name=".home.HomeActivity"
             android:exported="false">
         </activity>
 

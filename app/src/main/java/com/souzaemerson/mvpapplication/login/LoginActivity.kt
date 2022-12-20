@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.souzaemerson.mvpapplication.databinding.ActivityLoginBinding
-import com.souzaemerson.mvpapplication.home.MainActivity
+import com.souzaemerson.mvpapplication.home.HomeActivity
 import com.souzaemerson.mvpapplication.register.RegisterActivity
 
 class LoginActivity : AppCompatActivity(), LoginContract.View {
@@ -54,7 +54,7 @@ class LoginActivity : AppCompatActivity(), LoginContract.View {
     }
 
     override fun goToHomeActivity() {
-        val intent = Intent(this, MainActivity::class.java)
+        val intent = Intent(this, HomeActivity::class.java)
         startActivity(intent)
     }
 }

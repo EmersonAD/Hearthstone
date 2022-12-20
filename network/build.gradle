@@ -33,16 +33,24 @@ android {
 
 dependencies {
 
+    def koin_android_version= "3.3.1"
+
     implementation 'androidx.core:core-ktx:1.9.0'
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'com.google.android.material:material:1.7.0'
 
-    implementation project(":data")
-
     //retrofit
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    //Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    //OkHttp
+    implementation("com.squareup.okhttp3:okhttp:4.10.0")
+    //Interceptor
+    implementation("com.squareup.okhttp3:logging-interceptor:4.10.0")
     //Gson
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    // Koin main features for Android
+    implementation "io.insert-koin:koin-android:$koin_android_version"
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'
