@@ -1,12 +1,14 @@
 package com.souzaemerson.mvpapplication.home
 
+import java.util.Locale
+
 interface HomeContract {
     interface Presenter {
         fun getHearthstoneInfo(apikey: String)
-        fun getCardByClass()
+        fun getCardByClass(apikey: String, playerClass: String, locale: String)
     }
 
     interface View {
-       fun setShimmer()
+        fun showShimmer(isLoading: Boolean)
     }
 }

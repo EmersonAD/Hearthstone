@@ -45,6 +45,9 @@ dependencies {
     //Coroutines
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4")
 
+    //Coil
+    implementation("io.coil-kt:coil:2.2.2")
+
     implementation project(":data")
     implementation project(":cache")
     implementation project(":domain")
