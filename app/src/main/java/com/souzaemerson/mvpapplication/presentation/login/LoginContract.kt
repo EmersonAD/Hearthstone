@@ -1,4 +1,4 @@
-package com.souzaemerson.mvpapplication.login
+package com.souzaemerson.mvpapplication.presentation.login
 
 interface LoginContract {
     interface View {

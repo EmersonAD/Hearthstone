@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/register_text_color"
-    tools:context="com.souzaemerson.mvpapplication.register.RegisterActivity">
+    tools:context="com.souzaemerson.mvpapplication.presentation.register.RegisterActivity">
 
     <ImageButton
         android:id="@+id/back_to_login"

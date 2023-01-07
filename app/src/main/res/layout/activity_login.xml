@@ -6,7 +6,7 @@
     android:background="@color/register_text_color"
     android:orientation="vertical"
     android:padding="20dp"
-    tools:context="com.souzaemerson.mvpapplication.login.LoginActivity">
+    tools:context="com.souzaemerson.mvpapplication.presentation.login.LoginActivity">
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/iv_logo"

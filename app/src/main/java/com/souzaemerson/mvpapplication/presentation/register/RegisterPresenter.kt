@@ -1,4 +1,4 @@
-package com.souzaemerson.mvpapplication.register
+package com.souzaemerson.mvpapplication.presentation.register
 
 import android.content.Context
 import android.util.Patterns

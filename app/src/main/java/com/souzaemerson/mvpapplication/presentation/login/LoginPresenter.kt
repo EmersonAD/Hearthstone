@@ -1,4 +1,4 @@
-package com.souzaemerson.mvpapplication.login
+package com.souzaemerson.mvpapplication.presentation.login
 
 import android.content.Context
 import com.souzaemerson.cache.CacheManager

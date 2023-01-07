@@ -1,12 +1,12 @@
-package com.souzaemerson.mvpapplication.login
+package com.souzaemerson.mvpapplication.presentation.login
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.souzaemerson.mvpapplication.databinding.ActivityLoginBinding
-import com.souzaemerson.mvpapplication.home.HomeActivity
-import com.souzaemerson.mvpapplication.register.RegisterActivity
+import com.souzaemerson.mvpapplication.presentation.home.HomeActivity
+import com.souzaemerson.mvpapplication.presentation.register.RegisterActivity
 
 class LoginActivity : AppCompatActivity(), LoginContract.View {
 

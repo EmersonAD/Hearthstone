@@ -1,4 +1,4 @@
-package com.souzaemerson.mvpapplication.register
+package com.souzaemerson.mvpapplication.presentation.register
 
 
 interface RegisterContract {

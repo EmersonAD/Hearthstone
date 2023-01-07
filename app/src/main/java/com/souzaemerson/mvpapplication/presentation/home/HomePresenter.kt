@@ -1,4 +1,4 @@
-package com.souzaemerson.mvpapplication.home
+package com.souzaemerson.mvpapplication.presentation.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

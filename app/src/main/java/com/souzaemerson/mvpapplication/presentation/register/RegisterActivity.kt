@@ -1,11 +1,11 @@
-package com.souzaemerson.mvpapplication.register
+package com.souzaemerson.mvpapplication.presentation.register
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.souzaemerson.mvpapplication.databinding.ActivityRegisterBinding
-import com.souzaemerson.mvpapplication.home.HomeActivity
+import com.souzaemerson.mvpapplication.presentation.home.HomeActivity
 import com.souzaemerson.ui.dialog.genericDialog
 
 class RegisterActivity : AppCompatActivity(), RegisterContract.View {
